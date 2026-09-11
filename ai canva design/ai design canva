@@ -1,0 +1,143 @@
+Celebrate AI Design Canvas
+Core Design Principle & Product Ideology
+Vision
+The Celebrate AI Design Canvas is not an image editing software.
+It is a decision-support tool that enables event management teams to quickly transform a client's venue into a realistic event concept that clients can understand, compare, and approve before execution.
+The objective is not to create artistic images. The objective is to communicate a proposed event design clearly and accurately.
+
+Core Philosophy
+Most event planners do not possess professional graphic design skills.
+They are experts in:
+Decorations
+Vendor coordination
+Event planning
+Venue management
+but not in:
+Photoshop
+Illustrator
+3D modelling
+Complex image editing software
+Therefore the canvas should never require planners to become designers.
+The system should adapt to the planner, not force the planner to learn complicated tools.
+
+Fundamental Principle
+"Design Through Arrangement, Not Through Creation"
+The planner should not create visual elements.
+The planner should only:
+Select assets
+Arrange assets
+Describe intentions
+The system handles:
+Alignment
+Scaling
+Symmetry
+Realism
+Perspective
+Lighting corrections
+This significantly reduces effort while maintaining control.
+
+Human-Controlled, AI-Assisted
+The canvas should always remain planner-driven.
+The planner decides:
+What decorations to use
+Where decorations are placed
+Which style is preferred
+The AI assists by:
+Improving placement
+Correcting proportions
+Maintaining visual consistency
+The AI must never redesign the entire venue on its own.
+
+Preservation of Reality
+One of the most important principles of the Celebrate canvas is:
+"Do Not Change The Venue"
+The uploaded venue image represents the real execution environment.
+The AI should never:
+Change walls
+Change stage dimensions
+Add unrealistic structures
+Generate a completely new venue
+The venue remains fixed.
+Only decorative overlays are modified.
+This ensures:
+Proposal accuracy
+Client trust
+Realistic execution expectations
+
+Overlay-Based Design System
+The canvas is built around overlays.
+Examples:
+Flower arrangements
+Curtains
+Backdrops
+Stage frames
+Chandeliers
+Decorative lighting
+Seating arrangements
+Entrance arches
+Every overlay represents a real asset that:
+Exists with the planner
+or
+Can be sourced from vendors
+The resulting design becomes operationally achievable.
+
+AI Assistance Philosophy
+AI should function like an experienced event designer sitting beside the planner.
+Examples:
+Planner:
+"Make the curtain arrangement more symmetrical."
+AI:
+Repositions curtain overlays.
+
+Planner:
+"Increase floral coverage around the stage."
+AI:
+Suggests additional flower placements.
+
+Planner:
+"Improve the lighting mood."
+AI:
+Adjusts lighting overlays and brightness.
+The AI assists.
+The planner approves.
+
+Simplicity Over Power
+The canvas should feel closer to:
+Canva
+PowerPoint
+than:
+Photoshop
+Blender
+AutoCAD
+The majority of planners should be able to learn the canvas within minutes.
+The success metric is:
+"Can a first-time planner create a proposal in less than 10 minutes?"
+If not, the canvas is too complex.
+
+Business Purpose
+The AI Design Canvas exists to solve a marketplace problem.
+Clients currently struggle to answer:
+"What exactly will my event look like?"
+The canvas helps event planners answer this question visually before execution.
+This reduces:
+Design uncertainty
+Vendor comparison difficulty
+Client hesitation
+while increasing:
+Proposal quality
+Client confidence
+Vendor conversion rates
+
+Success Criteria
+A successful design canvas should:
+Be usable by non-designers.
+Produce realistic event concepts.
+Use real vendor assets.
+Preserve the actual venue.
+Reduce proposal creation time.
+Help clients compare planners visually.
+Increase confidence before booking.
+
+Celebrate Canvas Mission Statement
+"The Celebrate AI Design Canvas empowers event planners to transform real venues into realistic event concepts using simple arrangements of real-world decorative assets, while AI assists with refinement, ensuring every proposal remains visual, achievable, and trustworthy."
+
