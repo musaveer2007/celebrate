@@ -9,6 +9,7 @@ const ClientProposals = () => {
   const [events, setEvents] = useState<Event[]>([]);
   const [proposals, setProposals] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [selectedDesignUrl, setSelectedDesignUrl] = useState<string | null>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -69,7 +70,13 @@ const ClientProposals = () => {
                 </div>
                 
                 <div className="mt-4 pt-4 border-t border-slate-100 flex flex-col gap-2">
-                  <button className="btn btn-secondary w-full">View Visual Design</button>
+                  <button 
+                    className="btn btn-secondary w-full"
+                    onClick={() => setSelectedDesignUrl(proposal.design_url || null)}
+                    disabled={!proposal.design_url}
+                  >
+                    View Visual Design
+                  </button>
                   {proposal.status !== 'accepted' && (
                     <button 
                       className="btn btn-primary w-full"
@@ -82,6 +89,24 @@ const ClientProposals = () => {
               </div>
             );
           })}
+        </div>
+      )}
+
+      {selectedDesignUrl && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80">
+          <div className="relative max-w-5xl w-full">
+            <button 
+              className="absolute -top-12 right-0 text-white hover:text-gray-300 text-xl font-bold"
+              onClick={() => setSelectedDesignUrl(null)}
+            >
+              Close
+            </button>
+            <img 
+              src={selectedDesignUrl} 
+              alt="Visual Design" 
+              className="w-full h-auto max-h-[80vh] object-contain rounded-lg bg-white"
+            />
+          </div>
         </div>
       )}
     </div>
